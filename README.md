@@ -1,1 +1,3 @@
-# TeenBiscuits.github.io
+# My personal portfolio
+
+Copyright - Pablo Portas López
