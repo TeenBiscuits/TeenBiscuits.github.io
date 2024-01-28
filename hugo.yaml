@@ -44,7 +44,6 @@ languages:
         subtitle: "Estudante de Enxeñería Informática na Universidade da Coruña"
 
 
-
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Pablo Portas López
