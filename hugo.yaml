@@ -23,7 +23,7 @@ languages:
       languageAltTitle: Español
       profileMode:
         enabled: true
-        subtitle: "Estudiante de Ingeniería Informática en la Universidad de∫∫∫ A Coruña"
+        subtitle: "Estudiante de Ingeniería Informática en la Universidad de A Coruña"
   en:
     languageCode: en
     languageName: "English"
