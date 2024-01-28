@@ -1,0 +1,97 @@
+baseURL: https://teenbiscuits.github.io
+title: Pablo Portas López Portfolio
+defaultContentLanguage: es
+theme: ["PaperMod"]
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+languages:
+  es:
+    contentDir: content/es
+    disable: false
+    languageCode: es-ES
+    languageName: "Español"
+    weight: 1
+    params:
+      languageAltTitle: Español
+      profileMode:
+        enabled: true
+        subtitle: "Estudiante de Ingeniería Informática Informática en la Universidad de la Coruña"
+  en:
+    contentDir: content/es
+    disable: false
+    languageCode: en
+    languageName: "English"
+    weight: 2
+    params:
+      languageAltTitle: English
+      profileMode:
+        enabled: true
+        subtitle: "Computer Engineering student at the University of Coruña"
+  gal:
+    contentDir: content/es
+    disable: false
+    languageCode: gl
+    languageName: "Galego"
+    weight: 3
+    params:
+      languageAltTitle: Galego
+      profileMode:
+        enabled: true
+        subtitle: "Estudante de Enxeñería Informática Informática na Universidade da Coruña"
+
+
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Pablo Portas López
+  description: "Pablo Portas López Portfolio"
+  keywords: [Blog, Portfolio, PaperMod]
+  author: Pablo Portas López
+  DateFormat: "2 January, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+
+  # profile-mode
+  profileMode:
+    enabled: true
+    title: "Pablo Portas López"
+    subtitle: "Estudiante de Ingeniería Informática"
+    imageUrl: "https://avatars.githubusercontent.com/u/81629707?v=4"
+    imageWidth: 250 # custom size
+    imageHeight: 250 # custom size
+  socialIcons:
+    - name: x
+      url: "https://x.com/PabloPortasL"
+    - name: github
+      url: "https://github.com/TeenBiscuits"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/pabloportaslopez/"
+    - name: kofi
+      url: "https://ko-fi.com/pablopl"
+    - name: paypal
+      url: "https://paypal.me/pabloportaslopez"
